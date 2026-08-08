@@ -607,3 +607,10 @@ footer p {
 .back-link {
     color: #006699;
 }
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid #ffcc00;
+    outline-offset: 3px;
+}
